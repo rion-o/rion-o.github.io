@@ -1,16 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Rion&#39;s Personal Blog</title>
+    <title>Young Hun Oh</title>
     <link>https://rion-o.github.io/authors/admin/</link>
       <atom:link href="https://rion-o.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
-    <description>Rion&#39;s Personal Blog</description>
+    <description>Young Hun Oh</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>Rion&#39;s Personal Blog</title>
+      <title>Young Hun Oh</title>
       <link>https://rion-o.github.io/authors/admin/</link>
     </image>
+    
+    <item>
+      <title>Research Goal</title>
+      <link>https://rion-o.github.io/post/research-goal/</link>
+      <pubDate>Mon, 30 Mar 2020 11:18:13 +0900</pubDate>
+      <guid>https://rion-o.github.io/post/research-goal/</guid>
+      <description>&lt;p&gt;This post is about what I want to study for my graduate study. The following topics are the ones I am currently interested in:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;AI that can reason&lt;/li&gt;
+&lt;li&gt;AI on edge devices (specially on smartphones)&lt;/li&gt;
+&lt;li&gt;System for continual learning&lt;/li&gt;
+&lt;li&gt;Application: Artificial Intelligence in healthcare&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;1-reasoning-ai&#34;&gt;1. Reasoning AI&lt;/h3&gt;
+&lt;h3 id=&#34;2-ai-on-edge-devices&#34;&gt;2. AI on Edge Devices&lt;/h3&gt;
+&lt;h3 id=&#34;3-system-for-continual-learning&#34;&gt;3. System for Continual Learning&lt;/h3&gt;
+&lt;h3 id=&#34;4-application-ai-in-healthcare&#34;&gt;4. Application: AI in Healthcare&lt;/h3&gt;
+</description>
+    </item>
     
   </channel>
 </rss>
