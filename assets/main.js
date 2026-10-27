@@ -20,7 +20,7 @@
 
   // typed intro
   const typed = $("#typed");
-  const line = "whoami  # henry oh, senior ml engineer";
+  const line = "whoami  # henry, senior ml engineer";
   if (reduced) typed.textContent = line;
   else {
     let i = 0;
@@ -82,8 +82,7 @@
     { name: "Go to Contact", hint: "3", run: go("#contact") },
     { name: "Toggle theme", hint: "T", run: toggleTheme },
     { name: "Expand / collapse timeline", hint: "E", run: toggleAll },
-    { name: "Download CV", hint: "pdf", run: () => (location.href = "/files/cv200316.pdf") },
-    { name: "Send email", hint: "mailto", run: () => (location.href = "mailto:rion.oyh@gmail.com") },
+    { name: "Send email", hint: "mailto", run: () => (location.href = "mailto:henry.funfzig@gmail.com") },
     { name: "Open GitHub", hint: "link", run: () => window.open("https://github.com/rion-o", "_blank", "noopener") },
     { name: "Open LinkedIn", hint: "link", run: () => window.open("https://www.linkedin.com/in/henry-oh", "_blank", "noopener") },
     { name: "Keyboard shortcuts", hint: "?", run: () => setTimeout(() => open(help)) },

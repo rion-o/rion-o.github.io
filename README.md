@@ -1,6 +1,6 @@
 # rion-o.github.io
 
-Personal site for Young Hun Oh (Henry Oh). A hand-written static site: plain HTML, CSS and a small vanilla JS file. There is no build step, no dependencies and no tracking.
+Personal site for Henry. A hand-written static site: plain HTML, CSS and a small vanilla JS file. There is no build step, no dependencies and no tracking.
 
 ## Layout
 
@@ -11,7 +11,6 @@ Personal site for Young Hun Oh (Henry Oh). A hand-written static site: plain HTM
 | `assets/main.js` | Theme toggle, typed intro, timeline, command palette, shortcuts |
 | `404.html` | Not-found page |
 | `favicon.svg`, `og.png` | Icon and social preview image |
-| `files/cv200316.pdf` | CV, linked from the page |
 
 ## Preview locally
 
