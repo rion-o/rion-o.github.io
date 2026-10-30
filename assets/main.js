@@ -120,6 +120,19 @@
     else if (e.key === "Enter" && shown[sel]) { e.preventDefault(); run(shown[sel]); }
   });
 
+  // easter egg: ↑↑↓↓←→←→ B A cycles the accent hue
+  const code = ["arrowup","arrowup","arrowdown","arrowdown","arrowleft","arrowright","arrowleft","arrowright","b","a"];
+  let progress = 0, hue = 0;
+  addEventListener("keydown", (e) => {
+    progress = e.key.toLowerCase() === code[progress] ? progress + 1 : (e.key.toLowerCase() === code[0] ? 1 : 0);
+    if (progress < code.length) return;
+    progress = 0;
+    hue = (hue + 70) % 360;
+    const root = document.documentElement.style;
+    root.setProperty("--accent", `hsl(${hue} 90% 70%)`);
+    root.setProperty("--accent-2", `hsl(${(hue + 60) % 360} 80% 75%)`);
+  });
+
   // global keys
   addEventListener("keydown", (e) => {
     if (e.key === "Escape") {
